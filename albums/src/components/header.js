@@ -14,8 +14,15 @@ const Header = () => {
 };
 
 const styles = {
-  viewStyle:{
-    backgroundColor: 'red'
+  viewStyle: {
+    backgroundColor: 'red',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 60,
+    paddingTop: 15,
+    shadowColor: 'black',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2
   },
   textStyle: {
     fontSize: 20
