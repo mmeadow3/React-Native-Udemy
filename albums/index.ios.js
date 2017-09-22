@@ -4,6 +4,7 @@ import React from 'react';
 import { AppRegistry, View } from 'react-native';
 import Header from './src/components/Header';
 import AlbumList from './src/components/AlbumList';
+import AlbumDetail from './src/components/AlbumDetail';
 // create a component
 ////////////adding the view tag makes it so the APP is only returning one value
 const App = () => (
